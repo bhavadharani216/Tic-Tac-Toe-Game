@@ -45,6 +45,7 @@ function checkWinner() {
     }
   }
 
+  
   if (!board.includes("")) {
     statusText.textContent = "It's a Draw!";
     gameActive = false;
